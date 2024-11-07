@@ -36,6 +36,10 @@ button:hover {
     background-color: rgb(192, 192, 192);
 }
 
+#clearBtn {
+    width: 323px;
+}
+
 h2 {
     color: white;
     -webkit-text-stroke: 2px black;

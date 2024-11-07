@@ -7,27 +7,28 @@
 </head>
 <body>
     <div id="outerContainer">
-        <h2>829.10</h2>
+        <h2 id="result">0</h2>
+        <button id="clearBtn" onclick="resetScreen()">Clear</button>
         <div id="innerContainer">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="operationButtons">÷</button>
+            <button id="sevenBtn" onclick="addToEnd('7')">7</button>
+            <button id="eightBtn" onclick="addToEnd('8')">8</button>
+            <button id="nineBtn" onclick="addToEnd('9')">9</button>
+            <button id="dividBtn" class="operationButtons">÷</button>
 
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="operationButtons">*</button>
+            <button id="fourBtn" onclick="addToEnd('4')">4</button>
+            <button id="fiveBtn" onclick="addToEnd('5')">5</button>
+            <button id="sixBtn" onclick="addToEnd('6')">6</button>
+            <button id="multiplyBtn" class="operationButtons">*</button>
 
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="operationButtons">-</button>
+            <button id="oneBtn" onclick="addToEnd('1')">1</button>
+            <button id="twoBtn" onclick="addToEnd('2')">2</button>
+            <button id="threeBtn" onclick="addToEnd('3')">3</button>
+            <button id="minusBtn" class="operationButtons">-</button>
 
-            <button>.</button>
-            <button>0</button>
+            <button id="pointBtn" onclick="addToEnd('.')">.</button>
+            <button id="zeroBtn" onclick="addToEnd('0')">0</button>
             <button id="solveBtn">=</button>
-            <button class="operationButtons">+</button>
+            <button id="plusBtn" class="operationButtons">+</button>
 
         </div>
     </div>
